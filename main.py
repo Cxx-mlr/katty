@@ -10,4 +10,5 @@ def main():
     foo()
     bar()
 
-main()
+if __name__ == "__main__":
+    main()
