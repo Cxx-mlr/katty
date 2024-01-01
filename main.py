@@ -6,5 +6,8 @@ def foo():
 def bar():
     print("bar() running")
 
-foo()
-bar()
+def main():
+    foo()
+    bar()
+
+main()
