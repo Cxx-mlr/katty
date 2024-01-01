@@ -7,3 +7,4 @@ def bar():
     print("bar() running")
 
 foo()
+bar()
