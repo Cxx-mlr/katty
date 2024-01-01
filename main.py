@@ -5,3 +5,5 @@ def foo():
 
 def bar():
     print("bar() running")
+
+foo()
