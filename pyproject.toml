@@ -1,0 +1,28 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "katty"
+dynamic = ["version"]
+description = "Default template for PDM package"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+authors = [
+    {name = "Santiago Papiernik", email = "spapiernik12@gmail.com"},
+]
+license = { "file" = "LICENSE" }
+
+[project.scripts]
+katty = "katty.cli:main"
+
+[tool.pdm]
+version = { source = "file", path = "src/katty/__init__.py" }
+distribution = true
+
+[tool.uv]
+dev-dependencies = [
+    "mypy>=1.11.2",
+    "pytest>=8.3.3",
+]
