@@ -18,7 +18,7 @@ license = { "file" = "LICENSE" }
 katty = "katty.cli:main"
 
 [tool.pdm]
-version = { source = "file", path = "src/katty/__init__.py" }
+version = { source = "file", path = "katty/__init__.py" }
 distribution = true
 
 [tool.uv]
