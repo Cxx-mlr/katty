@@ -36,4 +36,3 @@ Thank you for considering contributing to this Taipy project template! To ensure
 3. **Use Examples**: If applicable, provide examples of how the feature could be implemented or used.
 
 We appreciate your contributions and look forward to improving this project together!
-
