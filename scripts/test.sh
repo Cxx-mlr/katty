@@ -3,5 +3,7 @@
 set -e
 set -x
 
-uv run coverage run -m pytest
-uv run coverage report --skip-covered --skip-empty --include=./katty/**/*,./tests/**/*
+coverage run -m pytest tests
+coverage combine
+coverage report
+coverage html
